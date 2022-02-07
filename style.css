@@ -4,8 +4,8 @@ h1{
     display: inline-block;
     padding-top: 50px;
     padding-bottom: 50px;
-    padding-left: 550px;
-    color: beige;
+    padding-left: 600px;
+    color: rgb(238, 238, 222);
     font-family:'Brush Script MT', 'cursive', 'sans-serif';
 }
 
@@ -20,7 +20,7 @@ p {
     display: inline-block;
     padding-top: 20px;
     padding-bottom: 20px;
-    color: beige;
+    color: rgb(238, 238, 222);
     font-family:'Brush Script MT', 'cursive', 'sans-serif';  
     font-size: 32px;
 }
@@ -32,15 +32,20 @@ body{
 
 #carouselExampleInterval {
     max-width: 800px;
-    max-height: 500px;;
+    max-height: 600px;;
     margin:auto;
 }
 
-.carousel-inner {
-    max-width: 800px;
-    max-height: 500px;
+.carousel-inner img{
+    max-width: 1000px;
+    max-height: 650px;
     border-radius: 25px;
-    filter: sepia(50%)
+    object-fit: contain;
+}
+
+.carousel-item {
+    max-width: 100%;
+    max-height: 100%;
 }
 
 
