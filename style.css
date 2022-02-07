@@ -1,0 +1,50 @@
+
+
+h1{
+    display: inline-block;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 550px;
+    color: beige;
+    font-family:'Brush Script MT', 'cursive', 'sans-serif';
+}
+
+.bitmoji {
+    display: inline;
+    height: 100px;
+    width: auto;
+   
+}
+
+p {
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: beige;
+    font-family:'Brush Script MT', 'cursive', 'sans-serif';  
+    font-size: 32px;
+}
+
+body{
+    background-color: rgb(31, 29, 29);
+}
+
+
+#carouselExampleInterval {
+    max-width: 800px;
+    max-height: 500px;;
+    margin:auto;
+}
+
+.carousel-inner {
+    max-width: 800px;
+    max-height: 500px;
+    border-radius: 25px;
+    filter: sepia(50%)
+}
+
+
+
+
+
+
