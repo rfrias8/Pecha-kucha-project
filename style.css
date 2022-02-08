@@ -1,20 +1,14 @@
 
 
 h1{
-    display: inline-block;
+    text-align: center;
+    display: block;
     padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 600px;
+    padding-bottom: 20px;
     color: rgb(238, 238, 222);
     font-family:'Brush Script MT', 'cursive', 'sans-serif';
 }
 
-.bitmoji {
-    display: inline;
-    height: 100px;
-    width: auto;
-   
-}
 
 p {
     display: inline-block;
@@ -37,6 +31,13 @@ body{
 }
 
 .carousel-inner img{
+    max-width: 1000px;
+    max-height: 600px;
+    border-radius: 25px;
+    object-fit: contain;
+}
+
+.carousel-inner video{
     max-width: 1000px;
     max-height: 650px;
     border-radius: 25px;
