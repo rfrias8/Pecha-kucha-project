@@ -1,11 +1,16 @@
 
+      body {
+        background-image: url('https://wallpaperaccess.com/full/1177739.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
 
-h1{
+h1 {
     text-align: center;
     display: block;
-    padding-top: 50px;
-    padding-bottom: 20px;
-    color: rgb(238, 238, 222);
+    padding-top: 40px;
+    padding-bottom: 50px;
+    color: rgb(222, 224, 235);
     font-family:'Brush Script MT', 'cursive', 'sans-serif';
 }
 
@@ -33,14 +38,7 @@ body{
 .carousel-inner img{
     max-width: 1000px;
     max-height: 600px;
-    border-radius: 25px;
-    object-fit: contain;
-}
-
-.carousel-inner video{
-    max-width: 1000px;
-    max-height: 650px;
-    border-radius: 25px;
+    border-radius: 55px;
     object-fit: contain;
 }
 
